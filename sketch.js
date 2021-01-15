@@ -158,7 +158,12 @@ function draw() {
 }
 
 function reset(){
-  
+  gameState=PLAY
+  obstaclesGroup.destroyEach();
+  cloudsGroup.destroyEach();
+  score=0;
+  trex.changeAnimation("running",trex_running)
+}
 
 }
 
