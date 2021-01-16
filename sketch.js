@@ -165,7 +165,7 @@ function reset(){
   trex.changeAnimation("running",trex_running)
 }
 
-}
+
 
 
 function spawnObstacles(){
